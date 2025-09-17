@@ -227,9 +227,8 @@ line-height: 100%;
     transition: 0.6s all ease;
  }
 
- .about-furniutr{
  
- }
+ 
 
  .photo-block{
     position: relative;
@@ -606,3 +605,274 @@ footer ul li a {
 footer ul li a:hover {
   color: #f04c4c;
 }
+
+.button-watch{
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+@media (max-width: 480px) {
+
+  header {
+    flex-direction: column;
+    padding: 20px 15px;
+    gap: 15px;
+    align-items: center;
+  }
+  header .navigation {
+    display: none;
+  }
+  header .icons-header {
+    display: flex;
+    justify-content: flex-end;
+    gap: 20px;
+    padding-right: 0;
+    width: 100%;
+    max-width: 420px;
+    margin-bottom: -77px;
+  }
+
+  .rec {
+    display: none;
+  }
+
+  
+  .main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px 15px;
+    position: relative;
+    text-align: center;
+    gap: 12px;
+    margin: 0;
+  }
+
+  
+  .main > p,
+  .main p {
+    font-size: 26px;          
+    line-height: 1.25;
+    font-weight: 700;
+    margin: 0 0 12px 0;
+    max-width: 340px;
+    word-wrap: break-word;
+  }
+
+  
+  .buttons-main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    width: 100%;
+    max-width: 340px; 
+    margin: auto;
+  }
+
+  .buttons-main .discover,
+  .buttons-main .readmore,
+  .buttons-main .btn {
+    flex: 0 0 auto;
+    width: 48%;
+    height: 56px;
+    font-size: 18px;
+  }
+
+  .buttons-main .discover {
+    order: 1; 
+
+  }
+
+  .buttons-main .watch-video,
+  .button-watch {
+    order: 2; /* справа */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+  }
+  .circle-triangle {
+    width: 42px;
+    height: 42px;
+    box-shadow: 0 6px 20px rgba(0,0,0,0.12);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+  }
+  .circle-triangle img {
+    width: 14px;
+    height: auto;
+  }
+  .watch-video span {
+    font-size: 16px;
+  }
+  .right-main img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin-left: -120px; 
+}
+
+
+  .about-furniutr,
+  .photo-pg2 {
+    margin-top: 100px;
+    height: auto;
+    max-width: 360px;
+    width: 100%;
+  }
+
+  
+  .about-row {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 18px;
+    padding: 0 15px;
+    margin-top: 30px;
+  }
+
+  
+  .photo-pg2 {
+    width: 100%;
+    max-width: 360px;  
+    height: auto;
+    padding-top: 50px;
+    z-index: 2;
+    margin-left: 10px;
+  }
+
+
+  .about-row {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-left:110px;
+}
+
+
+
+
+  .abt-pg2 {
+    font-size: 28px;
+    line-height: 1.05;
+    text-align: center;
+    align-items: center;
+    margin: 0;
+  }
+
+  .furniture-outline {
+    font-size: 44px;
+    -webkit-text-stroke: 1px #282A30;
+    color: transparent;
+    text-align: center;
+    line-height: 1;
+  }
+
+  .text-p2 {
+    width: 100%;
+    max-width: 360px;
+    font-size: 15px;
+    line-height: 1.45;
+    color: #7A7A7A;
+    padding-bottom: 18px;
+    text-align: center;
+    margin-top: 0;
+  }
+
+  .read-button {
+    display: block;
+    margin: 8px auto 0 auto;
+    text-align: center;
+  }
+
+  
+  
+  .kvadrat1,
+  .kvadrat2,
+  .img-tochki,
+  .tochki-pg2,
+  .tochkipg3 {
+    display: none;
+  }
+
+ 
+  .image-pg3 {
+    max-width: 360px;
+    margin: 16px auto 0;
+  }
+  .whitekv {
+    position: static;
+    width: 100%;
+    margin-bottom: 12px;
+    padding: 18px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+  }
+  .cardpg31, .cardpg32, .cardpg33 {
+    top: auto;
+    left: auto;
+    right: auto;
+    bottom: auto;
+  }
+
+  .headerpg3 {
+    text-align: center;
+    margin: 0;
+  }
+  .headerpg3 h2 { font-size: 22px; }
+  .headerpg3 h1 { font-size: 44px; -webkit-text-stroke: 1px #000; }
+
+ 
+  .productpg4 {
+    padding: 20px 15px;
+    margin-top: 40px;
+  }
+  .product-header {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    align-items: center;
+    padding: 0;
+  }
+  .listpg4 {
+    grid-template-columns: 1fr;
+    gap: 16px;
+    padding: 0 6px;
+  }
+
+  
+  .pg5 {
+    display: flex;
+    flex-direction: column;
+    padding: 30px 15px;
+    gap: 18px;
+    margin-top: 40px;
+    text-align: center;
+  }
+  .textpg5 h1 span,
+  .textpg5 h1 strong {
+    font-size: 44px;
+    line-height: 1;
+  }
+  .stair-img img {
+    width: 100%;
+    max-width: 360px;
+    margin: 0 auto;
+  }
+
+  
+  footer {
+    flex-direction: column;
+    padding: 24px 15px;
+    gap: 18px;
+    text-align: center;
+  }
+
+  
+  .product-itempg4 img { height: 180px; object-fit: cover; }
+  .product-itempg4 { padding: 16px; }
+}
+    
